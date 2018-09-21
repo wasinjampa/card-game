@@ -48,7 +48,7 @@ const prepareStateFromWord = (give_word) =>{
             <iframe 
             width="863" 
             height="360" 
-            src="https://www.youtube.com/embed/1sl1PxeU_wk?ecver=2"
+            src="https://www.youtube.com/embed/1sl1PxeU_wk?ecver=2?playlist=1sl1PxeU_wk?ecver=2;autoplay=1&loop=1&rel=0&amp;showinfo=0"
             frameborder="0" 
             allow="autoplay; encrypted-media" 
             allowfullscreen></iframe>
