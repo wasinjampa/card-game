@@ -32,11 +32,13 @@ import _ from 'lodash';
     render(){
         return(
             <div className= "App">
+            <h1>เริ่มเกมส์</h1>
             { Array.from(this.state.chars).map( 
                     (c,i)=> <CharacterCard value = {c} key = {i} attempt={this.state.attempt} 
                     activateHandler={this.activateHandler}/> 
                 )
             }
+            <h1>รอบที่ {this.state.attempt}</h1>
             <h2>{this.state.complete? "CORRECT!!" : ""}</h2>
             </div>
         )
