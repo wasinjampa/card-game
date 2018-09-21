@@ -35,6 +35,7 @@ const prepareStateFromWord = (give_word) =>{
             <div className= "App">
             <h1>เริ่มเกมส์</h1>
             <h2>คำใบ้</h2>
+            <img src ='https://www.scholarship.in.th/wp-content/uploads/2014/07/017.jpg'/>
             <h3>เป็นชื่อมหาวิทยาลัยหนึ่งในภาคใต้</h3>
             { Array.from(this.state.chars).map( 
                     (c,i)=> <CharacterCard value = {c} key = {i} attempt={this.state.attempt} 
