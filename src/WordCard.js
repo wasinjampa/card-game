@@ -34,6 +34,8 @@ const prepareStateFromWord = (give_word) =>{
         return(
             <div className= "App">
             <h1>เริ่มเกมส์</h1>
+            <h2>คำใบ้</h2>
+            <h3>เป็นชื่อมหาวิทยาลัยหนึ่งในภาคใต้</h3>
             { Array.from(this.state.chars).map( 
                     (c,i)=> <CharacterCard value = {c} key = {i} attempt={this.state.attempt} 
                     activateHandler={this.activateHandler}/> 
