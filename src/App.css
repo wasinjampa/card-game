@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background-image: "http://image.dek-d.com/18/623275/15008252";
+  background: url(./a.png) no-repeat center center fixed;  
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
 }
 
 .App-logo {
