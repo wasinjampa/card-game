@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import CharacterCard from './CharacterCard';
 import _ from 'lodash';
- const prepareStateFromWord = (give_word) =>{
+ 
+const prepareStateFromWord = (give_word) =>{
     let word = give_word.toUpperCase()
     let chars = _.shuffle(Array.from(word))
     return{
@@ -40,7 +41,16 @@ import _ from 'lodash';
             }
             <h1>รอบที่ {this.state.attempt}</h1>
             <h2>{this.state.complete? "CORRECT!!" : ""}</h2>
+            <h5>มาฟังเพลงระบายอารมณ์กันก่อนนะ ^^</h5>
+            <iframe 
+            width="863" 
+            height="360" 
+            src="https://www.youtube.com/embed/1sl1PxeU_wk?ecver=2"
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen></iframe>
             </div>
+            
         )
     }
 }
