@@ -37,6 +37,7 @@ import _ from 'lodash';
                     activateHandler={this.activateHandler}/> 
                 )
             }
+            <h2>{this.state.complete? "CORRECT!!" : ""}</h2>
             </div>
         )
     }
